@@ -40,7 +40,7 @@
             v-for="item of col.list"
             :key="item"
             class="content"
-            :class="getClassName(item.car)"
+            :class="getClassName(item.team)"
           >
             {{ item.driver }}
             <span class="position">No.{{ item.position }}</span>
@@ -326,6 +326,7 @@ body {
 }
 
 .Super-Aguri-Honda {
+  background-color: #fff;
   color: #c1171a;
 }
 
@@ -335,14 +336,17 @@ body {
 }
 
 .BAR-Honda {
+  background-color: #fff;
   color: #c10001;
 }
 
 .Honda {
+  background-color: #fff;
   color: #e62110;
 }
 
 .Toyota {
+  background-color: #fff;
   color: #db333b;
 }
 
